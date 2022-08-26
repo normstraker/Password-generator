@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  box-sizing: border-box;
+}
+:root {
+  --backcolor-: #1c1c1c;
+  --projblue-: #1f2937;
+  --textgreen-: #4adf86;
+  --buttongreen-: #10b981;
+  --medgrey-: #d5d4d8;
+  --password-: #273549;
+  --maintext-: "Karla", sans-serif;
+  --smalltext-: "Inter", sans-serif;
+}
+
+body {
+  background-color: var(--backcolor-);
+  height: 100%;
+}
+
+.container {
+  background-color: var(--projblue-);
+  height: 550px;
+  width: 550px;
+  padding: 52px;
+  margin: 50px auto;
+  border-radius: 25px;
+}
+
+.title-text {
+  color: white;
+  font-family: var(--maintext-);
+  font-weight: 800;
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+.green-text {
+  color: var(--textgreen-);
+}
+
+p {
+  color: var(--medgrey-);
+  font-family: var(--smalltext-);
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+button {
+  color: var(--smalltext-);
+  font-size: 16px;
+  background-color: var(--buttongreen-);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+hr {
+  border: 1px solid #2f3e53;
+  margin: 35px 0;
+}
+
+.passwords {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.passwords > span {
+  font-size: 16px;
+  font-family: var(--smalltext-);
+  font-weight: 500;
+  background-color: var(--password-);
+  color: var(--textgreen-);
+  width: 211px;
+  height: 40px;
+  text-align: center;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
