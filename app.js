@@ -106,3 +106,24 @@ function genPasswords() {
     passElTwo.textContent += characters[genPassTwo];
   }
 }
+
+// Scrimba solution for generating a single password
+
+// let passwordLength = 12;
+
+// function getRandomCharacter() {
+//   let randomChar = Math.floor(Math.random() * characters.length);
+//   return characters[randomChar];
+// }
+
+// function generateRandomPassword() {
+//   let randomPassword = "";
+//   for (let i = 0; i < passwordLength; i++) {
+//     randomPassword += getRandomCharacter();
+//   }
+//   return randomPassword;
+// }
+
+// const generatedPasswordOne = generateRandomPassword();
+
+// console.log("Here is a random password: ", generatedPasswordOne);
